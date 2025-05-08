@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+env/
+venv/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Django
+*.sqlite3
+*.log
+migrations/
+
+# Static and Media Files
+staticfiles/
+media/
+
+# Vercel
+.vercel
+.vercelignore
+vercel.json.bak
+
+# Node (for Vercel CLI or frontend dependencies)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.coverage
+*.cover
+*.cache
+pytest_cache/
+
+# Miscellaneous
+*.bak
+*.swp
+*~venv/
+venv/
+venv

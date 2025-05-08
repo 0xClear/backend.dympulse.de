@@ -2,4 +2,6 @@ import os
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
-application = get_wsgi_application()
+
+# Define the WSGI application as 'app' for Vercel compatibility
+app = get_wsgi_application()
